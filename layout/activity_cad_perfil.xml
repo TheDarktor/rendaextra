@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#0C86C8">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingBottom="50dp"
+            android:orientation="vertical"
+            tools:context=".main_login">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/cad_perfil_photo"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/ic_action_account_circle_white"
+        />
+
+        <Button
+                android:text="ADICIONE UMA FOTO"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cad_btn_perfil_photo"
+                android:background="@drawable/botao_customizado_1"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+
+        />
+        <EditText
+                android:id="@+id/cad_perfil_nome"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/linha_email_login"
+                android:ems="10"
+                android:hint="Nome"
+                android:paddingLeft="10dp"
+                android:inputType="text"
+                android:textColor="#F2FFFFFF"
+                android:textColorHint="#80ffffff"
+                tools:layout_editor_absoluteX="56dp"
+                tools:layout_editor_absoluteY="286dp"/>
+
+        <EditText
+                android:id="@+id/cad_perfil_sobrenome"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/linha_email_login"
+                android:ems="10"
+                android:hint="Sobrenome"
+                android:paddingLeft="10dp"
+                android:inputType="text"
+                android:textColor="#ffffff"
+                android:textColorHint="#80ffffff"
+                tools:layout_editor_absoluteX="56dp"
+                tools:layout_editor_absoluteY="343dp" />
+
+        <EditText
+                android:id="@+id/cad_perfil_phone"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/linha_email_login"
+                android:ems="10"
+                android:hint="Telefone"
+                android:paddingLeft="10dp"
+                android:inputType="phone"
+                android:textColor="#ffffff"
+                android:textColorHint="#80ffffff"
+                tools:layout_editor_absoluteX="56dp"
+                tools:layout_editor_absoluteY="343dp"/>
+
+        <EditText
+                android:id="@+id/cad_perfil_cpf"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/linha_email_login"
+                android:ems="10"
+                android:hint="CPF"
+                android:paddingLeft="10dp"
+                android:inputType="number"
+                android:textColor="#ffffff"
+                android:textColorHint="#80ffffff"
+                tools:layout_editor_absoluteX="56dp"
+                tools:layout_editor_absoluteY="343dp" />
+
+        <EditText
+                android:id="@+id/cad_perfil_datanasc"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/linha_email_login"
+                android:ems="10"
+                android:hint="Data de Nascimento"
+                android:paddingLeft="10dp"
+                android:inputType="date"
+                android:textColor="#ffffff"
+                android:textColorHint="#80ffffff"
+                tools:layout_editor_absoluteX="56dp"
+                tools:layout_editor_absoluteY="343dp" />
+
+        <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/botao_customizado_2"
+        />
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="30dp"
+                  android:layout_marginLeft="30dp"
+                  android:layout_marginRight="30dp"
+                  android:layout_marginBottom="20dp"
+                  android:textSize="20dp"
+                  android:text="ENDEREÇO"
+                  android:textColor="#ffffff"
+                  android:gravity="center"
+                  android:textStyle="bold"
+        />
+        <EditText
+                android:id="@+id/cad_perfil_bairro"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/linha_email_login"
+                android:ems="10"
+                android:hint="Bairro"
+                android:paddingLeft="10dp"
+                android:inputType="text"
+                android:textColor="#ffffff"
+                android:textColorHint="#80ffffff"
+                tools:layout_editor_absoluteX="56dp"
+                tools:layout_editor_absoluteY="343dp" />
+
+        <EditText
+                android:id="@+id/cad_perfil_rua"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/linha_email_login"
+                android:ems="10"
+                android:hint="Rua"
+                android:paddingLeft="10dp"
+                android:inputType="text"
+                android:textColor="#ffffff"
+                android:textColorHint="#80ffffff"
+                tools:layout_editor_absoluteX="56dp"
+                tools:layout_editor_absoluteY="343dp" />
+
+        <EditText
+                android:id="@+id/cad_perfil_casa"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/linha_email_login"
+                android:ems="10"
+                android:hint="Numero"
+                android:paddingLeft="10dp"
+                android:inputType="number"
+                android:textColor="#ffffff"
+                android:textColorHint="#80ffffff"
+                tools:layout_editor_absoluteX="56dp"
+                tools:layout_editor_absoluteY="343dp"/>
+
+        <EditText
+                android:id="@+id/cad_perfil_comp"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/linha_email_login"
+                android:ems="10"
+                android:hint="Complemento"
+                android:paddingLeft="10dp"
+                android:inputType="text"
+                android:textColor="#ffffff"
+                android:textColorHint="#80ffffff"
+                tools:layout_editor_absoluteX="56dp"
+                tools:layout_editor_absoluteY="343dp" />
+
+        <Button
+                android:text="Avançar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cad_btn_perfil_avancar"
+                android:textColor="#0C86C8"
+                android:background="@drawable/botao_customizado_2"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+        />
+
+    </LinearLayout>
+</ScrollView>

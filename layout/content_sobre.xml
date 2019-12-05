@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#0C86C8">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingBottom="50dp"
+            android:orientation="vertical"
+            tools:context=".main_login">
+
+        <android.support.v7.widget.AppCompatImageView
+                android:layout_width="match_parent"
+                android:layout_height="267dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/logobranca" />
+
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="50dp"
+                  android:text="SOBRE O PROJETO"
+                  android:textSize="30dp"
+                  android:textColor="#ffffff"
+                  android:gravity="center"
+                  android:fontFamily="@font/robotobold"
+                  android:layout_marginTop="10dp"
+        />
+
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="180dp"
+                  android:text="Renda Extra é um trabalho de conclusão de curso, realizado no ano de 2019 com o intuito de ajudar as pessoas desempregadas, e as de baixa renda."
+                  android:layout_marginTop="10dp"
+                  android:layout_marginLeft="5dp"
+                  android:layout_marginRight="5dp"
+                  android:textColor="#ffffff"
+                  android:fontFamily="@font/robotomedium"
+                  android:textSize="25dp"
+        />
+
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="50dp"
+                  android:text="responsáveis "
+                  android:textSize="30dp"
+                  android:textAllCaps="true"
+                  android:textColor="#ffffff"
+                  android:gravity="center"
+                  android:fontFamily="@font/robotobold"
+                  android:layout_marginTop="20dp"
+        />
+
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="270dp"
+                  android:gravity="center"
+                  android:text="Murillo Giovanni F. Mariano\nIsabela Tainá Gomes\nBreno Schlink Marcondes\nEvelyn Ferreira Silva\nGustavo Rocha de Oliveira\nNátaly Cristina Dias Silva\nGabrielle Lourdes da Silva"
+                  android:layout_marginTop="10dp"
+                  android:layout_marginRight="3dp"
+                  android:layout_marginLeft="3dp"
+                  android:textColor="#ffffff"
+                  android:fontFamily="@font/robotomedium"
+                  android:textSize="25dp"
+        />
+
+        <Button
+                android:text="VOLTAR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sobre_voltar"
+                android:textColor="#0C86C8"
+                android:background="@drawable/botao_customizado_2"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+        />
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#0C86C8">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingBottom="60dp"
+            android:orientation="vertical"
+            tools:context=".main_login">
+
+        <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/ronaldo"
+                android:layout_marginTop="100dp"
+        />
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Conserto de Geladeira"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:fontFamily="@font/robotobold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textColor="#ffffff"
+        />
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ronaldo Martins"
+                android:textSize="15dp"
+                android:textAlignment="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/robotomedium"
+                android:textColor="#ffffff"
+        />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="SEU Código é:"
+            android:textSize="20dp"
+            android:fontFamily="@font/robotobold"
+            android:textAllCaps="true"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#ffffff"
+    />
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="777-354"
+                android:textSize="20dp"
+                android:fontFamily="@font/robotobold"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginRight="90dp"
+                android:background="#ffffff"
+                android:textColor="#0C86C8"
+                android:textAlignment="center"
+        />
+
+        <Button
+                android:text="VOLTAR AO INÍCIO"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cod1_home"
+                android:textColor="#ffffff"
+                android:background="@drawable/botao_customizado_1"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:textSize="15dp"
+        />
+
+
+</LinearLayout>
+
+</ScrollView>

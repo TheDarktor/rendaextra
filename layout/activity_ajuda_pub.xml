@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#0C86C8">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingBottom="50dp"
+            android:orientation="vertical"
+            tools:context=".main_login">
+
+        <TextView
+                android:layout_width="match_parent" android:layout_height="30dp"
+                android:text="COMO PUBLICAR UM SERVIÇO"
+                android:textSize="23dp"
+                android:textColor="#ffffff"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:fontFamily="@font/robotobold"
+        />
+
+        <TextView
+                android:layout_width="match_parent" android:layout_height="30dp"
+                android:text="1º Passo: Visite a aba serviços"
+                android:textSize="23dp"
+                android:textColor="#ffffff"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:fontFamily="@font/robotomedium"
+        />
+        <TextView
+                android:layout_width="match_parent" android:layout_height="30dp"
+                android:text="2º Passo: Aperte o seguinte botão:"
+                android:textSize="23dp"
+                android:textColor="#ffffff"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:fontFamily="@font/robotomedium"
+        />
+
+        <ImageView android:layout_width="60dp" android:layout_height="60dp"
+                   android:background="@drawable/upload"
+                   android:layout_marginTop="20dp"
+        />
+
+        <TextView
+                android:layout_width="match_parent" android:layout_height="60dp"
+                android:text="3º Passo: Envie um email apertando:"
+                android:textSize="23dp"
+                android:textColor="#ffffff"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:fontFamily="@font/robotomedium"
+        />
+
+        <Button android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="ENVIAR"
+                android:textSize="25dp"
+                android:textColor="#0C86C8"
+                android:background="@drawable/botao_customizado_2"
+                android:fontFamily="@font/robotomedium"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/email_blue"
+                android:layout_marginTop="20dp"
+                android:gravity="center|start"
+                android:drawablePadding="10dp"
+                android:paddingLeft="55dp"
+        />
+
+        <TextView
+                android:layout_width="match_parent" android:layout_height="90dp"
+                android:text="4º Passo: Preencha o email com:\nNome, Sobrenome, Seu serviço e\nfotos do Serviço"
+                android:textSize="23dp"
+                android:textColor="#ffffff"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:fontFamily="@font/robotomedium"
+        />
+
+        <TextView
+                android:layout_width="match_parent" android:layout_height="90dp"
+                android:text="Após todos os passos, aguarde a aprovação."
+                android:textSize="23dp"
+                android:textColor="#ffffff"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:fontFamily="@font/robotobold"
+        />
+
+        <Button
+                android:text="VOLTAR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ajuda_pub_voltar"
+                android:textColor="#0C86C8"
+                android:background="@drawable/botao_customizado_2"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+        />
+
+    </LinearLayout>
+</ScrollView>

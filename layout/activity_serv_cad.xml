@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#0C86C8"
+        android:id="@+id/act_serv_cad">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingBottom="50dp"
+            android:orientation="vertical"
+            tools:context=".main_login">
+
+        <ImageView android:layout_width="match_parent"
+                   android:layout_height="247dp"
+                   android:layout_marginTop="50dp"
+                   android:background="@drawable/logobranca"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Envie\num\n Email e\nPublique\nSeu Serviço"
+                android:textAlignment="center"
+                android:textSize="40dp"
+                android:textColor="#ffffff"
+                android:textAllCaps="true"
+                android:fontFamily="@font/robotomedium"
+        />
+
+        <Button android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/snd_email"
+                android:text="ENVIAR"
+                android:textSize="25dp"
+                android:textColor="#0C86C8"
+                android:background="@drawable/botao_customizado_2"
+                android:fontFamily="@font/robotomedium"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/email_blue"
+                android:layout_marginTop="50dp"
+                android:gravity="center|start"
+                android:drawablePadding="10dp"
+                android:paddingLeft="55dp"
+        />
+
+
+    </LinearLayout>
+</ScrollView>
