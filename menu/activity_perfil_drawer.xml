@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_inicio"
+                android:title="Início"/>
+        <item
+                android:id="@+id/nav_perfil"
+                android:title="Perfil"/>
+        <item
+                android:id="@+id/nav_servicos"
+                android:title="Serviços"/>
+
+    </group>
+
+    <item android:title="Geral">
+        <menu>
+
+            <item
+                    android:id="@+id/nav_config"
+                    android:title="Configurações"/>
+
+            <item
+                    android:id="@+id/nav_ajuda"
+                    android:title="Ajuda"/>
+
+            <item
+                    android:id="@+id/nav_sobre"
+                    android:title="Sobre"/>
+
+        </menu>
+    </item>
+
+</menu>
